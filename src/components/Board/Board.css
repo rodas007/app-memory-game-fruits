@@ -1,0 +1,29 @@
+.b-tittle{
+display: flex;
+justify-content: center;
+
+}
+.b-tittle-font{
+font-size: 30px;
+}
+
+
+.b-moves{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    }
+    .b-moves-font{
+    font-size: 30px;
+  
+
+    }
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
